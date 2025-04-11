@@ -1,0 +1,19 @@
+.v-toast__item {
+    /* opacity: 1;
+    min-height: 4em; */
+    min-height: 2em !important;
+}
+.v-toast__item .v-toast__text {
+    /* padding: 1.5em 1em ; */
+
+    padding: 0em 0.5em !important;
+    font-size: small;
+}
+
+.v-toast__item .v-toast__icon {
+    display: block;
+    width: 16px !important;
+    min-width: 16px !important;
+    height: 16px !important;
+    margin-left: 0.5em !important;
+}

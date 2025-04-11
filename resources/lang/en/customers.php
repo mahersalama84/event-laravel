@@ -1,0 +1,31 @@
+<?php
+
+return [
+    'followernotfound' => 'Follower not found',
+    'followingnotfound' => 'Your are not following customer',
+    'followernotaccepted' => 'Follower not accepted',
+    'followingnotaccepted' => 'Following not accepted from other customer',
+    'accept_follower' => 'Follower was accepted, he/she will see your occasions',
+    'unaccept_follower' => 'Follower was declined, he/she will never see your occasions',
+    'customernotfound' => 'Customer not found',
+    'customeralreadyverified' => 'Customer Already verified',
+    'customermustverify' => 'Customer must verify his/her mobile number',
+    'customermustentername' => 'Customer must enter name',
+    'customerregistered' => 'Customer has been registered',
+    'mustgetotp' => 'Must get OTP first',
+    'invalidlogindetails' => 'Invalid login details',
+    'customerloggedin' => 'Customer logged in',
+    'notverifiedcustomer' => 'Customer not verify his/her mobile number',
+    'customerupdated' => 'Customer inforamtion updated',
+    'customersignedout' => 'Customer signed out',
+    'Youraccountisinactive' => 'Your account not activated',
+    'image_uploaded' => 'Image uploaded.',
+    'image_deleted' => 'Image deleted.',
+    'no_image_found' => 'No image found',
+    "active_updated" => "Customer's active status changed",
+    "show_customers_updated" => "Charts for customers' statistics in main page will be displayed",
+    "not_show_customers_updated" => "Charts for customers' statistics in main page will not be displayed",
+    "followed" => "You followed person",
+    "un_followed" => "You unfollowed person",
+
+];

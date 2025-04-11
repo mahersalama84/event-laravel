@@ -1,0 +1,11 @@
+@import "./buttons.css";
+@import "./form.css";
+@import "./reset.css";
+@import "./variables.css";
+@import "./icon.css";
+@import "./dashboard.css";
+@import "./DataTable.css";
+@import "./toast.css";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

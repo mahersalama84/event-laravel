@@ -1,0 +1,37 @@
+.btn-indigo {
+    @apply px-6 py-3 rounded-xl bg-indigo-600 dark:bg-gray-400 dark:focus:bg-gray-500 dark:hover:bg-gray-500 text-white text-sm leading-4 font-bold whitespace-nowrap hover:bg-indigo-500 focus:bg-indigo-500;
+}
+
+.btn-danger {
+    @apply px-6 py-3 rounded bg-red-600 dark:bg-red-400 text-white text-sm leading-4 font-bold whitespace-nowrap hover:bg-red-500 focus:bg-red-500;
+}
+
+button[type="submit"] {
+    @apply bg-indigo-600 dark:bg-gray-400;
+}
+.btn-spinner,
+.btn-spinner:after {
+    @apply ml-2 rounded-full w-4 h-4;
+    /* height: theme(spacing.4); */
+}
+
+.btn-spinner {
+    @apply text-9xl bg-transparent;
+    position: relative;
+    text-indent: -9999em;
+    border-top: theme(spacing[0.5]) solid theme(colors.white);
+    border-right: theme(spacing[0.5]) solid theme(colors.white);
+    border-bottom: theme(spacing[0.5]) solid theme(colors.white);
+    border-left: theme(spacing[0.5]) solid theme(colors.transparent);
+    transform: translateZ(spacing.0);
+    animation: spinning 1s infinite linear;
+}
+
+@keyframes spinning {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}

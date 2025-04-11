@@ -1,0 +1,15 @@
+.icon-wrapper {
+    @apply flex items-center py-3;
+    & .icon-active {
+        @apply mx-2 w-4 h-4 fill-white dark:fill-indigo-400;
+    }
+    & .icon-inactive {
+        @apply mx-2 w-4 h-4 fill-indigo-400 dark:fill-white;
+    }
+    & .text-active {
+        @apply text-white dark:text-indigo-300;
+    }
+    & .text-inactive {
+        @apply text-indigo-300 dark:text-white;
+    }
+}

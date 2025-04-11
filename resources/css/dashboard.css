@@ -1,0 +1,19 @@
+.main-container {
+    @apply lg:flex lg:flex-grow lg:overflow-hidden;
+    & .secondery-container {
+        @apply bg-gray-100 dark:bg-gray-800 dark:text-white px-5 py-5 lg:flex-1 lg:px-10 lg:py-10 lg:overflow-y-auto;
+        & h1 {
+            @apply mb-8 text-3xl font-bold;
+        }
+        & .filter-container {
+            @apply flex items-center justify-between mb-6;
+
+            & .filter-main {
+                @apply flex items-center mr-4 w-full max-w-md;
+            }
+        }
+    }
+    & .main-menu {
+        @apply hidden flex-shrink-0 p-6 w-56 bg-indigo-800 dark:bg-gray-500 overflow-y-auto lg:block;
+    }
+}
